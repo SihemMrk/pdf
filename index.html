@@ -4,12 +4,21 @@
     <meta charset="utf-8" />
     <title>Mission</title>
     <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <h1>Ines</h1>
+    <form>
+      <input type="text" name="text" />
+      <input type="submit" value="Submit" />
+    </form>
     <script>
+      console.log("okkk");
       const HummusRecipe = require("hummus-recipe");
-      const pdfDoc = new HummusRecipe(
-        "CVSihemMeriki-Dev1.pdf",
-        "CVSihemMeriki-Dev1.pdf"
-      );
+      console.log(HummusRecipe);
+      // const pdfDoc = new HummusRecipe(
+      //   "CVSihemMeriki-Dev1.pdf",
+      //   "CVSihemMeriki-Dev1.pdf"
+      // );
       // const pdfDoc = new HummusRecipe("new", "output.pdf", {
       //   version: 1.6,
       //   author: "John Doe",
@@ -25,12 +34,5 @@
       // // document.getElementById("pdf").innerHTML = pdfDoc;
       // console.log(pdfDoc);
     </script>
-  </head>
-  <body>
-    <h1>Ines</h1>
-    <form>
-      <input type="text" name="text" />
-      <input type="submit" value="Submit" />
-    </form>
   </body>
 </html>
